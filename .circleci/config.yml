@@ -2,7 +2,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: mihalceamihai/mysql
+      IMAGE_NAME: mihalceamihai/cercetare-mysql
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
